@@ -1031,7 +1031,7 @@ a{
 /*猜你喜欢*/
 .caini {
     width:1190px;
-    height:2448px;
+    height:auto;;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -1041,5 +1041,307 @@ a{
     font-weight: bold;
     color:#333;
     padding-left:10px;
-    border-left:2px solid #FE9901;
+    border-left:4px solid #FE9901;
+    margin-bottom:14px;
 }
+.caini .bottom{
+    width:1190px;
+    height:auto;
+    overflow:hidden;;
+    background-color:#EEEEEE
+}
+.caini .bottom li{
+    height:340px;
+    width:237px;
+    float:left;
+    background-color: white;
+    margin-right:1px;
+    margin-bottom:1px;
+    position: relative;
+}
+
+.caini .bottom a{
+    display:block;
+    width:237px;
+    height:340px;
+    overflow: hidden;
+}
+.caini .bottom a:hover .zhut{
+    transform:scale(1.1);
+    transition: 1s;
+}
+.caini .bottom a:hover p{
+    color:#F60;
+}
+.caini .bottom .zhut{
+    width:200px;
+    height:200px;
+    margin:20px auto 0;
+    display:block;
+}
+.caini .bottom p{
+    width:193px;
+    height: 40px;
+    margin: 15px auto 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color:#333;
+    line-height:20px;
+}
+.caini .bottom pre{
+    margin-left: 20px;
+    color: #F60;
+    font-size:16px;
+    height:19px;
+    width:auto;
+    font-weight:bolder;
+    display:inline-block;
+}
+.caini .bottom i{
+    color: #F60;
+    font-size:10px; 
+    font-style: normal;
+}
+
+.caini .bottom .zy{
+    float: left;
+    width: 35px;
+    height: 18px;
+    margin: 2px 5px 0 0;
+}
+.caini .bottom .xiangsi{
+    display:block;
+    height:20px;
+    right:22px;
+}
+
+.caini .bottom .zhaoxs{
+    position: absolute;
+    right: 22px;
+    top: 280px;
+    width: 44px;
+    height: 20px;
+    border: 1px solid #f60;
+    border-radius: 4px;  
+    text-align: center;
+    color: #F60;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/*end*/
+.end{
+    width: 112px;
+    height: 22px;
+    font-size:18px;
+    font-weight:bold;
+    text-align: center;
+    line-height:22px;
+    color: #CCC;
+    margin: 15px auto;
+    display: block;
+}
+.end .left{
+    display:block;
+    float:left;
+    margin-top: 11px;
+    margin-left:-100px;
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+}
+.end .right{
+    display:block;
+    float:right;
+    margin-top: 11px;
+    margin-right:-100px;
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+}
+/*底上部分*/
+.dis{
+    width: 100%;
+    height:278px;
+    background: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+}
+.dis .top{
+    width:1190px;
+    padding: 12px 0;
+    height: 73px;
+    border-bottom: 1px solid #eaeaea;
+    margin:0 auto;
+    
+}
+.dis .top li{
+    width: 250px;
+    height: 48px; 
+    float:left;
+    overflow: hidden;
+    margin-top:10px;
+}
+.dis .top a{
+    display:block;
+    width: 48px;
+    height: 48px; 
+    float:left;
+    margin-right:5px;
+}
+.dis .top img{
+    display: block;
+    width: 48px;
+    height: 48px;
+  
+}
+.dis .top .bao {
+    color: #333;
+    font-size: 14px;
+    font-weight:bold;
+    width:56px;
+    height:19px;
+    line-height: 18px;
+    float:left;
+    display: block;
+    margin-top:5px;
+}
+.dis .top .bao:hover{
+    color:#f60;
+}
+.dis .top pre{
+    float:left;
+    width:180px;
+    height:24px;
+    line-height:24px;
+}
+.dis .bottom{
+    width:1190px;
+    height:180px;
+    margin:0 auto;
+}
+.dis .bottom .left{
+    width:1050px;
+    height:180px;
+    float:left;
+}
+.dis .bottom .left dl{
+    width:210px;
+    float:left;
+    height:180px;
+}
+.dis .bottom .left dt{
+    width: 100%;
+    line-height: 35px;
+    font-weight:bold;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom:5px;
+
+}
+.dis .bottom .left a{
+    color: #545454;
+    display:block;
+    height:22px;
+    line-height:2px;
+    font-size:12px;
+}
+.dis .bottom .left a:hover{
+    color:#f60;
+}
+.dis .bottom .right{
+    float: left;
+    height: 180px;
+    width: 90px;
+}
+.dis .bottom .right p{
+    width: 100%;
+    line-height: 35px;
+    font-weight:bold;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom:5px;
+}
+.dis .bottom .right a{
+    color: #545454;
+    display:block;
+    width:84px;
+    height:160px;
+    line-height:16px;
+    font-size:12px;
+}
+.dis .bottom .right a:hover{
+    color:#f60;
+}
+
+/*底部下*/
+.dix{
+    height:200px;
+    width:100%;
+    background: white;
+    box-sizing: border-box;
+}
+.dix .cent{
+    height:200px;
+    width:1190px;
+    margin:0 auto;
+    padding:15px 0 0;
+}
+.dix .cent .text1{
+    line-height: 25px;
+    height: 25px;
+    text-align: center;
+}
+.dix .cent .text1 a{
+    color: #666;
+    font-size:12px;
+    line-height:25px;
+}
+.dix .cent .text1 span{
+    color: #888;
+    padding: 0 8px;
+    line-height:18px;
+}
+
+.dix .cent .text2{
+    line-height: 25px;
+    height: 25px;
+    text-align: center;
+}
+.dix .cent .text2 .zi{
+    color:#999;
+   font-size:12px;
+    line-height:25px;
+}
+.dix .cent .text2 .zi2{
+    display:inline;
+    color:#999;
+    font-size:12px;
+    line-height:25p;
+}
+
+.dix .cent .text2 span{
+    color: #888;
+    padding: 0 8px;
+    line-height:18px;
+}
+.dix .cent .tu{
+    height:25px;
+    margin:5px 0 0;
+    width:100%;
+
+}
+.dix .cent .tu a{
+    display:block;
+    text-align: center;
+}
+
+.dix .cent .tu img{
+    display: inline-block;
+    margin-right: 8px;
+    width:76px;
+    height:24px;
+}
+
+
