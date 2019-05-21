@@ -402,9 +402,36 @@ a{
     margin: 10px;
     float: left;
     border-radius: 4px;
+    background:url(../img/bat7.3.jpg);
     position: relative;
-    background-color: #F60;
+
 }
+.batu .box1 .left img{
+    position: absolute;
+    width:81px;
+    height:25px;
+    top:20px;
+    left:15px;
+}
+.batu .box1 .left a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.batu .box1 .left p{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #fefefe;
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
 .batu .box1 .right{
     width: 136px;
     margin-top: 10px;
@@ -899,19 +926,225 @@ a{
     background-color:white;
     margin:0 auto;
 }
+.lunb .cent .left{
+    width: 190px;
+    height: 100%;
+    float: left;
+    background-color: #242120;
+    padding: 1px 0;
+    box-sizing: border-box;
+}
+.lunb .cent .left li{
+    width: 190px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.lunb .cent .left li:hover{
+    background-color: #FEFEFE;
+}
+.lunb .cent .left li:hover a{
+    color:#242120;
+}
+.lunb .cent .left li a{
+    font-size: 13px;
+    color: #fefefe;
+}
+.lunb .cent .left li a:hover{
+    color: #FE6507; 
+}
+.lunb .cent .left li span{
+    margin: 0 1px;
+    font-size: 10px;
+    color: #6C6A69;
+} 
+.lunb .cent .center{
+    width: 830px;
+    height: 482px;
+    background-color: purple;
+    float: left;
+    position: relative;
+}
+.lunb .cent .center .tu{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lunb .cent .center .tu a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lunb .cent .center .tu img{
+    height:482px;
+    width:830px;
+}
+.lunb .cent .center .jian .left{
+    display: block;
+    width: 30px;
+    height: 64px;
+    position: absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+.lunb .cent .center .jian .left:hover{
+    background: rgba(0,0,0,0.5);
+}
+.lunb .cent .center .jian .right{
+    display: block;
+    width: 30px;
+    height: 64px;
+    position: absolute;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+.lunb .cent .center .jian .right:hover{
+    background: rgba(0,0,0,0.5);
+}
+.lunb .cent .center .dian{
+    width: 240px;
+    height: 20px;
+    position: absolute;
+    bottom: 135px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.lunb .cent .center .dian li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .8);
+    border: 2px solid rgba(200, 200, 200, .6);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.lunb .cent .center .dian li:hover
+{
+    background-color: rgba(254, 152, 14, .8); 
+}
+.lunb .cent .center .gg{
+    width: 816px;
+    height: 122px;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+}
+.lunb .cent .center .gg ul{
+    width: 816px;
+    height: 122px;
+} 
+.lunb .cent .center .gg .guang{
+    width: 202px;
+    height: 122px;
+    float: left;
+    background-color: #fefefe;
+    margin-right: 2px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+} 
+.lunb .cent .center .gg .guang .text1{
+    font-weight: bold;
+    font-size: 17px;
+}
+.lunb .cent .center .gg .guang .text2{
+    color: #6A6B6B;
+    font-size: 14px;
+}
+.lunb .cent .center .gg .guang img{
+    height:80p;
+    width:80px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+ 
 /*轮播下*/
 .lunbx{
     height:38px;
     width:100%;
     background-color: white;
+    overflow: hidden;
 }
 .lunbx .top{
     width:1190px;
     height:38px;
-    background-color: #F60;
     margin:0 auto;
+    box-sizing: border-box;
+}
+.lunbx .top .left{
+    width: 190px;
+    height: 38px;
+    float: left;
+}
+.lunbx .top .left a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #FE980E;
+    font-size: 14px;
+    color: #FEFEFE;
+    line-height: 38px;   
+    padding-left: 27px;
+    box-sizing: border-box;
+    font-weight:bold;
+    float: left;
+}
+.lunbx .top .right .lianj{
+    height: 100%;
+    width: auto;
+    float: left;
+    margin-left: 10px;
+}
+.lunbx .top .right .lianj li{
+    height: 38px;
+    margin: 0 13px;
+    float: left;
+    line-height: 38px;
+    font-weight: bold;
 }
 
+.lunbx .top .right .lianj a{
+    color: #323232;
+    font-size: 15px;
+}
+.lunbx .top .right .lianj a:hover{
+    color: #FE6507;
+}
+.lunbx .top .rightr{
+    float:left;
+    height:170px;
+    width:38px;
+    margin-left: 25px;
+  
+}
+.lunbx .top .rightr img{
+    display: block;
+    width: 170px;
+    height: 38px;
+}
 /*logo开始*/
 .logo{
     height:110px;
