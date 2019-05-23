@@ -925,6 +925,8 @@ a{
     height:482px;
     background-color:white;
     margin:0 auto;
+    box-sizing: border-box;
+  
 }
 .lunb .cent .left{
     width: 190px;
@@ -1078,6 +1080,112 @@ a{
     right: 10px;
     bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lunb .cent .right{
+    width:170px;
+    height:482px;
+    background-color:#fff;
+    float:right;
+   right:0px;;
+   top:0px;
+    right:80px;
+    background-color: white;
+}
+.lunb .cent .right .top{
+    width:170px;
+    height:155px;
+    padding:11px 0 2px 0; 
+    border-bottom: 1px solid #f2f2f2;
+    background: red;
+}
+.lunb .cent .right .top .tu{
+    margin:0 auto;
+    background: #33AE75;
+}
+.lunb .cent .right .top .tu img{
+    width:52px;
+    height:52px;
+}
+.lunb .cent .right .top p{
+    width: 150px;
+    height: 24px;
+    margin: 52px auto 0;
+    text-align:center;
+    font-size:12px;
+}
+.lunb .cent .right .top .xin{
+    width: 170px;
+    height: 26px;
+    margin: 6px auto 6px;
+}
+.lunb .cent .right .top .xin a{
+    display:block;
+}
+.lunb .cent .right .top .xin .xinl{
+    display:inline-block;
+    float:left;
+    width: 68px;
+    height: 20px;
+    border: 1px solid #F90;
+    color: #ffa114;
+    line-height: 20px;
+    font-size:14px;
+    margin-left:8px;
+    text-align: center;
+}
+.lunb .cent .right .top .an{
+    width: 170px;
+    height: 26px;
+    margin: 6px auto 6px;
+}
+.lunb .cent .right .top .an a{
+    display: block;
+}
+.lunb .cent .right .top .an .anl{
+    height:18px;
+    width: 70px;
+    margin:0 11px 0 9px;
+    display:block;
+    float:left;
+}
+
+.lunb .cent .right .top .an .anr{
+    height:18px;
+    width: 70px;
+    margin:0 11px 0 9px;
+    display:block;
+    float:left;
+}
+
+.lunb .cent .right .cen{
+    width:150px;
+    height:145px;
+    margin: 11px 10px 11px;
+    font-size:12px;
+    background: yellow;
+}
+.lunb .cent .right .bottom{
+    width:170px;
+    height:146px;
+}
+
+
+
 
 
  
@@ -1576,5 +1684,91 @@ a{
     width:76px;
     height:24px;
 }
+/*右侧固定*/
+.gud{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    font-size: 12px;
+    background-color: #383838;
+}
+/*.gud .gudb{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 100%;
+    background-color: #383838;
+}*/
+.gud .gudb .biao{
+    width:35px;
+   height:auto;
+
+}
+.gud .biao .top {
+  /*  position: relative;*/
+    width: 35px;
+    height: 30px;
+    z-index: 2;
+    background-color: #383838;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: center;
+    top:5rem;
+
+ 
+}
+.gud .biao .top i{
+    color:#f60;
+    font-size: 18px;
+}
+
+.gud .biao .shop{
+    height:20%;
+    width: 29px;
+    background: #33AE75;
+  /*  padding: 3px 0 10px;*/
+  box-sizing: border-box;
+  border-top: 1px solid #4C4C4C;
+  border-bottom: 1px solid #4C4C4C;
+  padding: 0 6px;
+    cursor: pointer;
 
 
+
+   /* width: 35px;
+    height: 120px;
+    /* background-color: yellow; */
+   /* margin-top: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #4C4C4C;
+    border-bottom: 1px solid #4C4C4C;
+    padding: 0 6px;
+    font-size: 14px;
+    color: #FEFEFE;
+    text-align: center;
+    cursor: pointer;*/
+}
+
+.gud .biao .shop span{
+    display: block;
+    width: 20px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+.gud .biao .shop .ling{
+    display: inline-block;
+    min-width: 17px;
+    height: 15px;
+    padding: 0 2px;
+    background-color: #D00;
+    color: #FFF;
+    line-height: 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
