@@ -122,10 +122,14 @@ a{
 }*/
 .logo .cent .search{
     width:600px;
-    height:50px;
-    margin:25px 0 0 10px;
-float:left;
+    height:70px;
+    margin:30px 0 0 10px;
+    float:left;
 
+}
+.logo .cent .search .top{
+    height:40px;
+    width:600px;
 }
 .logo .cent .search .top .left{
     display:block;
@@ -176,8 +180,8 @@ float:left;
 .logo .cent .search .bottom{
     float: left;
     width: 100%;
-    height: auto;
-    margin-top: 5px;
+    height: 18px;
+    margin-top:5px;
     overflow: hidden;
 }
 .logo .cent .search .bottom a{
@@ -192,7 +196,8 @@ float:left;
     color:#FF6600;
 }
 .logo .cent .search .bottom span{
-    height:10px;
+    font-size:8px;
+    line-height:18px;
     color:#ddd; 
 }
 
@@ -265,7 +270,7 @@ float:left;
 .lunb{
     height:482px;
     width:100%;
-    background-color: blue;
+    background-color: #19A5C6;
 }
 .lunb .cent{
     width:1190px;
@@ -1356,7 +1361,7 @@ margin-right:2px;
 }
 .lingsr .box .bottom .shu .left .text .price{
     float: left;
-    font-size: 22px;
+    font-size: 12px;
     font-weight: bold;
     color: #ef711e;
     height: 31px;
@@ -2268,6 +2273,7 @@ text-overflow:ellipsis;
     color: #888;
     padding: 0 8px;
     line-height:18px;
+    font-size:12px;
 }
 
 .dix .cent .text2{
@@ -2291,6 +2297,7 @@ text-overflow:ellipsis;
     color: #888;
     padding: 0 8px;
     line-height:18px;
+    font-size: 12px;
 }
 .dix .cent .tu{
     height:25px;
