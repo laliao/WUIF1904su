@@ -1944,6 +1944,13 @@ text-overflow:ellipsis;
     line-height: 47px;
 
 }
+.rpc .ding .left .iconfont{
+    color: #33AE75;
+    font-size:20px;
+    display:block;
+    float:left;
+    margin:12px 0 0 8px;
+}
 
 .rpc .ding .right{
     width:suto;
