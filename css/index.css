@@ -10,6 +10,71 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
+/*左侧导航*/
+.leftdh{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -670px;
+    margin-top: -150px;
+    width: 70px;
+    height: 300px;
+ 
+}
+.floatBar {
+    width: 68px;
+    padding-top: 9px;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    position: relative;
+    display:none;
+}
+
+.floatBar .float-bg {
+    position: absolute;
+    width: 45px;
+    height: 37px;
+    left: 13px;
+    top: -29px;
+    z-index: 1;
+    background: url(../img/index.png) -302px -80px;
+}
+
+.floatBar .list {
+    width: 68px;
+}
+
+.floatBar .return {
+    display: block;
+    width: 68px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #FF9902;
+    font-size: 12px;
+}
+
+.floatBar .list li{
+    width: 100%;
+    height: 28px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+.floatBar .list .first {
+    background: #f90;
+    color:#fff;
+}
+
+
+
+
+
 /*顶图开始*/
 .dingtu{
     height:100px;
@@ -271,6 +336,27 @@ a{
     height:482px;
     width:100%;
     background-color: #19A5C6;
+    position: relative;
+}
+.lunb .lbb{
+    height:100%;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:1;
+
+}
+.lunb .lbb .back{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    transition: opacity 600ms linear;
+
+
 }
 .lunb .cent{
     width:1190px;
@@ -278,6 +364,11 @@ a{
     background-color:white;
     margin:0 auto;
     box-sizing: border-box;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+    z-index:100;
   
 }
 .lunb .cent .left{
@@ -294,25 +385,152 @@ a{
     line-height: 32px;
     padding-left: 10px;
     box-sizing: border-box;
-}
-.lunb .cent .left li:hover{
-    background-color: #FEFEFE;
-}
-.lunb .cent .left li:hover a{
-    color:#242120;
-}
-.lunb .cent .left li a{
     font-size: 13px;
     color: #fefefe;
 }
-.lunb .cent .left li a:hover{
+/* .lunb .cent .left li:hover{
+    background-color: #FEFEFE;
+} */
+/* .lunb .cent .left li:hover a{
+    color:#242120;
+} */
+
+.lunb .cent .left li span:hover{
     color: #FE6507; 
 }
-.lunb .cent .left li span{
+.lunb .cent .left .hot1{
+    background-color: #FEFEFE;
+    color:#242120 !important;
+   
+}
+.lunb .cent .left li .hot2{
+    color:#242120 !important;
+}
+
+
+.lunb .cent .left li .shu{
     margin: 0 1px;
     font-size: 10px;
     color: #6C6A69;
 } 
+/*主图左侧选项卡*/
+.sort-detail {
+    width: 999px;
+    height: 482px;
+    border: 1px solid #382526;
+    overflow: hidden;
+    background: #fff;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    z-index: 1111;
+    display: none;
+}
+
+.sort-detail .sort-btn {
+    width: 686px;
+    height: 24px;
+    overflow: hidden;
+    margin: 10px 0 0 8px;
+    float: left;
+}
+
+.sort-detail .sort-btn a {
+    float: left;
+    height: 24px;
+    margin-left: 25px;
+    padding: 0 10px;
+    color: #FFF;
+    line-height: 24px;
+    text-align: center;
+    background: #F90;
+    text-decoration: none;
+}
+
+.sort-detail .cate-list {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+    overflow: hidden;
+    float: left;
+    width: 780px;
+}
+
+.sort-detail .cate-list dl {
+    float: left;
+    height: auto;
+    overflow: hidden;
+    width: 750px;
+}
+
+.sort-detail .cate-list dl dt {
+    float: left;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 8px;
+    display: block;
+}
+
+.sort-detail .cate-list dl dt>a {
+    display: block;
+    width: 84px;
+    height: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+}
+.sort-detail .cate-list dl dt a:hover{
+    color:#FE6507; 
+}
+.sort-detail dd {
+    float: left;
+    width: 650px;
+    font: 12px/1.5 arial, tahoma, \5b8b\4f53;
+    line-height: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    z-index: 11;
+}
+
+.lunb .cent .left .sort-detail dd a {
+    color: #666;
+    margin-right: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.lunb .cent .left .sort-detail dd .orange {
+    color: #f60;
+}
+.lunb .cent .left .sort-detail .sort-image{
+width:200px;
+height:100%;
+padding:10px;
+/* float:right; */
+position: absolute;
+top:0;
+right:0;
+box-sizing: border-box;
+background:#F3F3F3;
+}
+.lunb .cent .left .sort-detail .sort-image img{
+    width:180px;
+    height:auto;
+    display:block;
+   
+}
+
+
+
+
+
+
+
 .lunb .cent .center{
     width: 830px;
     height: 482px;
@@ -334,6 +552,9 @@ a{
     position: absolute;
     left: 0;
     top: 0;
+    z-index:100;
+    opacity: 0;
+    transition: opacity 600ms linear;
 }
 .lunb .cent .center .tu img{
     height:482px;
@@ -399,6 +620,7 @@ display:none;
     right: 0;
     margin: auto;
     text-align: center;
+    z-index:100;
 }
 .lunb .cent .center .dian li{
     display: inline-block;
@@ -411,16 +633,20 @@ display:none;
     box-sizing: border-box;
     cursor: pointer;
 }
-.lunb .cent .center .dian li:hover
-{
+.lunb .cent .center .dian .hot{
     background-color: rgba(254, 152, 14, .8); 
 }
+/* .lunb .cent .center .dian li:hover
+{
+    background-color: rgba(254, 152, 14, .8); 
+} */
 .lunb .cent .center .gg{
     width: 816px;
     height: 122px;
     position: absolute;
     left: 8px;
     bottom: 8px;
+    z-index:100;
 }
 .lunb .cent .center .gg ul{
     width: 816px;
@@ -959,6 +1185,11 @@ margin-right:2px;
 }
 .bisp .box1 .bottom .cent1 a{
     display:block;
+    height:100%;
+    width:100%;
+    position: absolute;
+    left:0;
+    top:0;
 }
 .bisp .box1 .bottom .cent1 img{
     display: block;
