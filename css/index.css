@@ -53,6 +53,7 @@ a{
     line-height: 28px;
     color: #FF9902;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .floatBar .list li{
@@ -528,9 +529,6 @@ background:#F3F3F3;
 
 
 
-
-
-
 .lunb .cent .center{
     width: 830px;
     height: 482px;
@@ -539,8 +537,8 @@ background:#F3F3F3;
     position: relative;
 }
 .lunb .cent .center .tu{
-    width: 100%;
-    height: 100%;
+    width: 830px;
+    height: 482px;
     position: absolute;
     left: 0;
     top: 0;
@@ -561,21 +559,30 @@ background:#F3F3F3;
     width:830px;
 }
 .lunb .cent .center .jian{
-display:none;
+height:64px;
+width:830px;
+position: absolute;
+top:0;
+bottom:0;
+left:0;
+margin:auto;
+z-index:100;
+display: none;
 }
-.lunb .cent .center:hover .jian{
+
+/* .lunb .cent .center:hover .jian{
     display:block;
-}
+    z-index:100;
+} */
 .lunb .cent .center .jian .left{
     display: block;
     width: 30px;
     height: 64px;
     position: absolute;
     left:0;
-    top: 0;
+    /* top: 0;
     bottom: 0;
-    margin: auto;
-    z-index: 10;
+    margin: auto; */
     cursor: pointer;
     background: rgba(0,0,0,0.3); 
 }
@@ -594,11 +601,10 @@ display:none;
     width: 30px;
     height: 64px;
     position: absolute;
-    top: 0;
+    /* top: 0;
     bottom: 0;
-    margin: auto;
+    margin: auto; */
     right:0;
-    z-index: 10;
     cursor: pointer;
     background: rgba(0,0,0,0.3);
 }
